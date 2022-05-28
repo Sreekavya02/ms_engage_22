@@ -20,6 +20,7 @@ from django.contrib import admin
 from django.contrib.auth import views
 from django.views.static import serve
 from django.conf.urls import url
+from django.db.models.deletion import CASCADE
 
 urlpatterns = [
 
